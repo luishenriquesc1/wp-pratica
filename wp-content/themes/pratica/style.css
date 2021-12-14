@@ -6,5 +6,9 @@
   Description: Modelo teste do painel WordPress
   Version: 1.0
 */
+.top-bar {
+  background-color: aqua;
+  height: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
