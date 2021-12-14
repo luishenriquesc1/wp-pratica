@@ -1,4 +1,22 @@
-.top-bar {
-    background-color: aqua;
-    height: 50px
+.header {
+    &__social-media-icons {
+        background-color: $bg-primary-color;
+        height: 30px;
+    }
+    &__search {
+        background-color: $bg-secondary-color;
+        height: 30px;
+    }
+    &__menu {
+        &__items {
+            ul {
+                display: flex;
+                justify-content: end;
+                list-style: none;
+                li {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
 }

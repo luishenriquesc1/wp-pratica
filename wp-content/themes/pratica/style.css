@@ -6,9 +6,21 @@
   Description: Modelo teste do painel WordPress
   Version: 1.0
 */
-.top-bar {
-  background-color: aqua;
-  height: 50px;
+.header__social-media-icons {
+  background-color: green;
+  height: 30px;
+}
+.header__search {
+  background-color: yellow;
+  height: 30px;
+}
+.header__menu__items ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+.header__menu__items ul li {
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
