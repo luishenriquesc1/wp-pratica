@@ -1,0 +1,12 @@
+.footer {
+    &__menu {
+        ul {
+            display: flex;
+            justify-content: end;
+            list-style: none;
+            li {
+                padding: 0 10px;
+            }
+        }
+    }
+}

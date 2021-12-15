@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <section class="header__menu__logo col-md-2 col-12 text-center">Logo</section>
-          <nav class="header__menu__items col-md-10 text-end"><?php wp_nav_menu(array('theme_location' => 'primary_menu'))?></nav> <!-- Função php que chama o menu-->
+          <nav class="header__menu__items col-md-10"><?php wp_nav_menu(array('theme_location' => 'primary_menu'))?></nav> <!-- Função php que chama o menu-->
         </div>
       </div>
     </section>

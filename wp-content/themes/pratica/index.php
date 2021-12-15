@@ -1,13 +1,25 @@
-  <?php get_header()?>
+  <?php get_header() ?>
   <div class="content-area">
     <main>
-      <section class="slide">Slide</section>
-      <section class="services">Serviços</section>
-      <section class="section middle-area">
-        <aside class="sidebar">Barra Lateral</aside>
-        <div class="news">Motícias</div>
+      <section class="slide">
+        <div class="container">
+          <div class="row">Slide</div>
+        </div>
       </section>
-      <section class="map">Mapa</section>
+      <section class="services">Serviços</section>
+      <section class="middle-area">
+        <div class="container">
+          <div class="row">
+            <aside class="sidebar col-md-4">Barra Lateral</aside>
+            <div class="news col-md-8">Motícias</div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container">
+          <div class="row">Mapa</div>
+        </div>
+      </section>
     </main>
   </div>
-  <?php get_footer()?>
+  <?php get_footer() ?>

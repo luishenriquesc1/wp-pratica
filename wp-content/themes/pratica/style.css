@@ -23,4 +23,13 @@
   padding: 0 10px;
 }
 
+.footer__menu ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+.footer__menu ul li {
+  padding: 0 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
