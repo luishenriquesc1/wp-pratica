@@ -1,4 +1,5 @@
   <?php get_header() ?>
+  <img class="img-fluid" src="<?php the_field ('image_banner') ?>">
   <div class="content-area">
     <main>
       <section class="slide">
@@ -18,8 +19,9 @@
                 //Enquanto houver posts, mostre
               while (have_posts()): the_post();
               ?>
-              <article>
+              <article> 
                 <h3><?php the_title(); ?></h3> <!-- mostra o titulo od post-->
+                <img src="<?php the_field( 'thumbnail_post') ?>" >
                             <!--Mostra a data de publicação-->   <!--Mostra o nome do autor do post-->
                 <p>Published in <?php echo get_the_date(); ?> by <?php the_author_posts_link(); ?></p>
                 <!--Mostra a categoria do post--> <!--(' ') adiciona um espaço entre as categorias-->

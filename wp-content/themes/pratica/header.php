@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pratica WordPress</title>
-  <?php wp_head(); ?>
-  <!--Permite o carregamento de todas as folhas de estilos do site e scripts-->
+  <?php wp_head(); ?> <!--Permite o carregamento de todas as folhas de estilos do site e scripts-->
 </head>
 
 <body <?php body_class() ?>>
